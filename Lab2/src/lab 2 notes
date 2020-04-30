@@ -1,0 +1,28 @@
+Lab 2 Dice Throws:
+
+Requirements:
+- User input # of dice throws
+- Randomize 2 Variables (1-6) X User #
+- print results of each throw
+- Output message if variables match (pair)
+- Print a black line
+
+
+pseudo code:
+
+   configure class
+
+   declar x, y, avg as int
+
+   NumRolls = input
+
+   for i in num_rolls + 1:
+     x = 1+math.random*30
+     y = 1+math.random*30
+     avg += x
+     avg += y
+     print x, y
+     if x == y:
+        print(you got a pair)
+
+   print ("average:" (avg / (numrolls*2))
